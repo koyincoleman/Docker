@@ -1,0 +1,12 @@
+Install docker on ubuntu:
+Sudo apt update -y
+Sudo apt install docker.io -y
+Sudo service docker start
+Sudo docker info
+Sudo hostnamectl set-hostname docker
+Sudo su – ubuntu
+
+Install docker on Linux:
+Sudo yum update -y
+Sudo yum install docker.io -y
+Sudo service docker start
