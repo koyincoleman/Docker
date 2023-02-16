@@ -16,7 +16,18 @@ To deploy from one env to another
  Delete images after they have been pushed to registry
   docker rmi Name:version or ID
   docker rmi -f Name:version or ID
+  docker rmi $( docker images -q)
   
 You could push to DockerHub, ECR and Nexus Repo
+
+Creating a container:
+  docker create - create container
+  docker run - create and start container
+  docker ps -a will check if running, paused or exited
+    docker start, unpause
+   docker top, docker stats
+    check docker resources
+  
+  
 
 
