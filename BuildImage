@@ -1,0 +1,12 @@
+Git clone Enter_repo_url
+Install maven if not install
+cd into needed folder which contain pom.xml (Ex: cd mwa)
+mvn clean package (to create target file)
+Build docker image from Dockerfile
+  docker build -t tagname:1 -f Dockerfile .
+View image: docker images
+Tag image to get it ready to be pushed to registry
+  docker tag koyinapp:1 konyincoleman/docker_landmark
+Need authentication to push image to public/private repo
+  docker login -u username -p password
+docker push konyincoleman/docker_landmark:tagname
