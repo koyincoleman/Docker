@@ -20,13 +20,7 @@ To deploy from one env to another
   
 You could push to DockerHub, ECR and Nexus Repo
 
-Creating a container:
-  docker create - create container
-  docker run - create and start container
-  docker ps -a will check if running, paused or exited
-    docker start, unpause
-   docker top, docker stats
-    check docker resources
+
   
   
 
