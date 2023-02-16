@@ -1,0 +1,17 @@
+Creating a container:
+    docker create - create container
+    docker run - create and start container
+ docker run --name Jenkins -d -p 7000:8080 jenkins/jenkins
+ docker run --name Jenkins -d -p 7000:8080 ImageName
+ 
+ Check if container is running, paused or exited
+    docker ps -a 
+ To start or unpause container
+    docker start, unpause
+ Troubleshooting docker (check docker resources)
+    docker top, docker stats
+    Docker top  nameof container/ID	 – check CPU, memory 
+    Docker stat  nameof container/ID	
+    Docker log  nameof container/ID
+    Docker inspect  nameof container/ID
+    Docker attach  nameof container/ID --- when you attach to our container then we are able to see the logs.
