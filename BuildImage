@@ -10,3 +10,13 @@ Tag image to get it ready to be pushed to registry
 Need authentication to push image to public/private repo
   docker login -u username -p password
 docker push konyincoleman/docker_landmark:tagname
+To deploy from one env to another 
+  docker pull the image:
+    docker pull mylandmarktech/landmark-web-app:1
+ Delete images after they have been pushed to registry
+  docker rmi Name:version or ID
+  docker rmi -f Name:version or ID
+  
+You could push to DockerHub, ECR and Nexus Repo
+
+
